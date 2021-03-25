@@ -1,0 +1,28 @@
+1) sensores, camaras, cpu, modem inalambrico gsm
+Cpu compacto, para colocar en la consola u oculto mejor, una camara en retrovisor con cables o no (para ver todo el carro) 
+Opcional camara en consola en caso de intento de robo ver cara del maleante de todas maneras
+Activa sensor->activa camaras (fotos cada 3 seg.)->guarda imagenes en cpu-> transmite imagenes a servidor->sms aviso a dueño o mms con foto al dueño
+Programa cada cosa por separado -> requiero un electronico arrecho
+
+2)Con camara ip
+necesita ip dada por dhcp (o sea un pc o modem inalambrico comercial que obtenga ip y conectarse por ahi)
+tiene sensor de movimiento
+menos necesidad de programacion pero se necesita igual un electronico jeje
+ejemplo en http://www.seguridadplus.com/camara_ip_sensor_sony_+audio_1391_1.htm
+Tiene zona para deteccion y correo e (pudiera convertirse en mail con algunas imagenes)
+RS232 para MODEM opcional -> se puede conectar modem gsm
+
+3) Router inalambrico con usb + pendrive movilnet + camara Ip
+solucionar alimentacion en vehiculo (bateria independiente?)
+algunos router aceptan la simm card y se configuran los valores (primero desde el pc y la direccion base) Mantenimiento desde laptop en el vehiculo
+mantener siempre conectado fotos cada cierto tiempo, subir a servicio web procesar y enviar email
+O Con dyndns ruteamos la ip de la camara/router a la web y de alli podemos monitorear en vivo via web
+Configuramos el DNAT en el router GPRS. En este caso configuramos un routeo de todos los puertos TCP del puerto WAN (GPRS) 
+hacia la dirección IP de la cámara web, para que cualquier paquete TCP o UDP desde el exterior que nos entre por GPRS, el router 
+lo redirija a la cámara.
+Otro buen equipo http://www.made-in-china.com/showroom/starlee1628/product-detailpouxlCyTagkt/China-Ethernet-GSM-GPRS-Modem-RJ45-.html
+
+
+4) Camara ip inalambrica y envia fotos de una vez con detector de movimiento
+http://articulo.mercadolibre.com.mx/MLM-57181088-vigila-x-internet-camara-ip-inalambrica-c-movimiento-remoto-_JM
+
